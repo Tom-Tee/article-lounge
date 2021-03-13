@@ -1,0 +1,45 @@
+body {
+  font-family: 'Average', serif;
+  font-weight: 100;
+  // font-family: 'Noto Serif TC', serif;
+}
+
+.header {
+  height: 80vh;
+  background-color: #222222;
+  color: white;
+}
+
+.large-text {
+  width: 70vh;
+}
+
+.search-bar {
+  width: 100%
+}
+
+.searching {
+  width: 95%;
+  background-color: black;
+  border-radius: 32px;
+  color:white;
+  font-size: 24px;
+}
+
+.bi-chat-square {
+  position:absolute;
+  left: 10px;
+  font-size: 32px;
+}
+
+
+.for-right {
+  position:absolute;
+  right: 10px;
+  font-size: 32px;
+}
+
+.journal {
+  margin:12px;
+  padding-right: 10px
+}
