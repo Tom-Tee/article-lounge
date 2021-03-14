@@ -1,0 +1,36 @@
+.create-card {
+  width:364px;
+  padding: 40px;
+  color: rgb(68, 68, 68);
+}
+
+img {
+  width:364px;
+  height: 198px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-content {
+  width: 364px;
+  height: 198px;
+  background-color:#F5F2F1;
+  padding: 27px;
+}
+
+h5 {
+  font-size: 26px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+.bi-emoji-smile {
+  font-size: 36px;
+  padding-top: 4px;
+}
+
+.card-outer {
+  width:400px;
+}

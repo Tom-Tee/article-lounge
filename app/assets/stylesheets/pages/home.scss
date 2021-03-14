@@ -1,17 +1,21 @@
 body {
-  font-family: 'Average', serif;
-  font-weight: 100;
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 300;
   // font-family: 'Noto Serif TC', serif;
 }
 
 .header {
-  height: 80vh;
+  height: 82vh;
   background-color: #222222;
   color: white;
 }
 
+h1 {
+  font-size: 38px;
+}
+
 .large-text {
-  width: 70vh;
+  width: 80vh;
 }
 
 .search-bar {
@@ -19,7 +23,7 @@ body {
 }
 
 .searching {
-  width: 95%;
+  width: 90%;
   background-color: black;
   border-radius: 32px;
   color:white;
