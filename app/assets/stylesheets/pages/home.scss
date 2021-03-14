@@ -1,6 +1,7 @@
 body {
   font-family: 'Noto Serif TC', serif;
   font-weight: 300;
+  background-color: #F5F2F1;
   // font-family: 'Noto Serif TC', serif;
 }
 
@@ -15,7 +16,8 @@ h1 {
 }
 
 .large-text {
-  width: 80vh;
+  width: 600px;
+  font-size: 78px;
 }
 
 .search-bar {
@@ -23,11 +25,17 @@ h1 {
 }
 
 .searching {
-  width: 90%;
+  width: 80%;
   background-color: black;
   border-radius: 32px;
   color:white;
   font-size: 24px;
+  // outline: 0;
+  border: 1px solid black;
+}
+
+::placeholder {
+  color:#AAAAAA;
 }
 
 .bi-chat-square {
@@ -46,4 +54,18 @@ h1 {
 .journal {
   margin:12px;
   padding-right: 10px
+}
+
+.card-selection {
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #F5F2F1;
+}
+
+.card-container {
+  background-color: white;
+}
+
+.circle-selector {
+  padding-top: 50px;
 }
