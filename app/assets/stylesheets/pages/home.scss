@@ -69,3 +69,9 @@ h1 {
 .circle-selector {
   padding-top: 50px;
 }
+
+.css-card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap:8px;
+}

@@ -4,7 +4,7 @@
   color: rgb(68, 68, 68);
 }
 
-img {
+.card-image img {
   width:364px;
   height: 198px;
   background-size: cover;
@@ -33,4 +33,15 @@ h6 {
 
 .card-outer {
   width:400px;
+}
+
+
+.category-card {
+  height: 280px;
+  width: 313px;
+}
+
+.category-card img {
+  width:313px;
+  height: 234px;
 }
