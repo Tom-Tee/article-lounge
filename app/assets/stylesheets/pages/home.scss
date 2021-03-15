@@ -75,3 +75,34 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap:8px;
 }
+
+.footer {
+  height: 450px;
+  background-color: #222222;
+  color: white;
+  margin-top: 55px;
+}
+
+.left-side-upper {
+  margin:48px;
+  margin-left: 0;
+  width: 300px;
+}
+
+.right-side-upper {
+  margin:48px;
+  margin-left: 0;
+  width: 300px;
+  p {
+    font-size:18px;
+  }
+}
+
+.icons {
+  font-size: 32px;
+  padding-top:32px;
+}
+
+.ind-icon {
+  margin-right: 15px;
+}
