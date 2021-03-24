@@ -45,3 +45,38 @@ h6 {
   width:313px;
   height: 234px;
 }
+
+.horizontal-scroll-wrapper {
+  width: 420px;
+  height: 1350px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.horizontal-scroll-wrapper > div {
+  width: 400px;
+  height: 400px;
+}
+
+.horizontal-scroll-wrapper {
+  transform: rotate(-90deg);
+  transform-origin: right top;
+}
+
+.horizontal-scroll-wrapper > div {
+  transform: rotate(90deg);
+  transform-origin: right top;
+}
+
+.horizontal-scroll-wrapper {
+  transform:rotate(-90deg) translateY(-400px);
+}
+
+.card-outer-first {
+  margin-top: 400px;
+}
+
+.card-selection {
+  height: 500px;
+  padding: 0;
+}
