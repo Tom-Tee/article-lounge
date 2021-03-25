@@ -2,6 +2,7 @@
   width:364px;
   padding: 40px;
   color: rgb(68, 68, 68);
+  cursor: pointer;
 }
 
 .card-image img {
@@ -59,20 +60,21 @@ h6 {
 }
 
 .horizontal-scroll-wrapper {
-  width: 420px;
+  width: 480px;
   height: 1350px;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
 .horizontal-scroll-wrapper > div {
-  width: 500px;
+  width: 480px;
   height: 400px;
 }
 
 .horizontal-scroll-wrapper {
   transform: rotate(-90deg);
   transform-origin: right top;
+  margin-top:-48px;
 }
 
 .horizontal-scroll-wrapper > div {
@@ -81,7 +83,7 @@ h6 {
 }
 
 .horizontal-scroll-wrapper {
-  transform:rotate(-90deg) translateY(-400px);
+  transform:rotate(-90deg) translateY(-480px);
 }
 
 .card-outer-first {
@@ -89,7 +91,19 @@ h6 {
 }
 
 .card-selection {
-  height: 450px;
+  height: 480px;
   padding: 0;
   margin-top: 50px;
+}
+
+.card-image h6 {
+  position: absolute;
+  right: 108px;
+  top: 194px;
+  color: #717171;
+  z-index: 1;
+  background-color: white;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 12px;
 }
