@@ -71,17 +71,35 @@ nav h5 {
   padding-right: 20px;
   // text-decoration: underline;
   // text-underline-offset: 8px;
-  transition: all 0.3s ease-in-out 0s;
+  transition: top 300ms ease;
+  border-color: rgb(255, 255, 255) !important;
+  padding-bottom: 6px;
+  width: 58px;
+  margin-right: 32px;
 }
 
-.hr-journal {
-  width: 58%;
-  margin-left: 11px;
-  color:white !important;
+.border-btm {
+  border-bottom: 1px solid white;
+  position: relative;
+  top: -14px;
+  width: 58px;
+  margin-left: 14px;
+  transition: top 250ms ease;
 }
 
-.journal:hover {
-  // text-decoration: line-through;
-  transition: all 0.3s ease-in-out 0s;
-  text-underline-offset: -4px;
+.journal:hover + .border-btm {
+    top:-24px;
+    cursor: pointer;
+  }
+
+
+
+.bi-chat-square {
+  transition: 0.3s;
+
+}
+
+.bi-chat-square:hover {
+  font-size: 26px;
+  cursor: pointer;
 }
