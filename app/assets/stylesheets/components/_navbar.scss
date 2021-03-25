@@ -53,7 +53,7 @@ nav h5 {
   margin-right: 8px;
 }
 
-nav .bi-chat-square {
+nav .bi-suit-heart {
   position:absolute;
   left: 10px;
   font-size: 32px;
@@ -95,12 +95,12 @@ nav .bi-chat-square {
       cursor: pointer;
 }
 
-.bi-chat-square {
+.bi-suit-heart {
   transition: 0.3s;
 
 }
 
-.bi-chat-square:hover {
+.bi-suit-heart:hover {
   font-size: 26px;
   cursor: pointer;
 }
