@@ -53,7 +53,7 @@ nav h5 {
   margin-right: 8px;
 }
 
-.bi-chat-square {
+nav .bi-chat-square {
   position:absolute;
   left: 10px;
   font-size: 32px;
@@ -89,9 +89,11 @@ nav h5 {
 
 .journal:hover + .border-btm {
     top:-24px;
-    cursor: pointer;
   }
 
+.journal:hover {
+      cursor: pointer;
+}
 
 
 .bi-chat-square {
