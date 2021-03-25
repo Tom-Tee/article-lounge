@@ -9,24 +9,6 @@ h1 {
   font-size: 38px;
 }
 
-.bi-chat-square {
-  position:absolute;
-  left: 10px;
-  font-size: 32px;
-}
-
-
-.for-right {
-  position:absolute;
-  right: 10px;
-  font-size: 32px;
-}
-
-.journal {
-  margin:12px;
-  padding-right: 10px
-}
-
 .card-selection {
   padding-left: 80px;
   padding-right: 80px;
@@ -76,4 +58,13 @@ h1 {
 
 .ind-icon {
   margin-right: 15px;
+}
+
+a {
+  text-decoration:none;
+  color:white;
+}
+
+a:hover {
+  color:white;
 }
