@@ -58,20 +58,21 @@
         </div>
       </div>
     </div>
+  <% @selection.each do |card| %>
     <div class="card-outer">
       <div class="create-card">
         <div class="card-image">
-          <img src="https://images.unsplash.com/photo-1476242906366-d8eb64c2f661?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1308&q=80" alt="">
+          <img src=<%= card.url %> alt="">
           <h6>STAFF PICK</h6>
         </div>
 
         <div class="card-bottom">
           <div class="card-content">
-            <h5>Title</h5>
+            <h5><%= card.name %></h5>
             <div class="d-flex justify-content-between mt-5">
               <div class="card-details">
-                <h6>Price $$</h6>
-                <h6>Rated: Good</h6>
+                <h6>Price <%= card.price %></h6>
+                <h6>Rated: <%= card.rated %></h6>
               </div>
     <!--           <div class="flex-row-reverse"> -->
                 <i class="bi bi-emoji-smile"></i>
@@ -81,77 +82,8 @@
         </div>
       </div>
     </div>
-
-    <div class="card-outer">
-      <div class="create-card">
-        <div class="card-image">
-          <img src="https://images.unsplash.com/photo-1476242906366-d8eb64c2f661?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1308&q=80" alt="">
-          <h6>STAFF PICK</h6>
-        </div>
-        <div class="card-bottom">
-          <div class="card-content">
-            <h5>Title</h5>
-            <div class="d-flex justify-content-between mt-5">
-              <div class="card-details">
-                <h6>Price $$</h6>
-                <h6>Rated: Good</h6>
-              </div>
-    <!--           <div class="flex-row-reverse"> -->
-                <i class="bi bi-emoji-smile"></i>
-              <!-- </div> -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card-outer">
-      <div class="create-card">
-        <div class="card-image">
-          <img src="https://images.unsplash.com/photo-1476242906366-d8eb64c2f661?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1308&q=80" alt="">
-        <h6>STAFF PICK</h6>
-        </div>
-        <div class="card-bottom">
-          <div class="card-content">
-            <h5>Title</h5>
-            <div class="d-flex justify-content-between mt-5">
-              <div class="card-details">
-                <h6>Price $$</h6>
-                <h6>Rated: Good</h6>
-              </div>
-    <!--           <div class="flex-row-reverse"> -->
-                <i class="bi bi-emoji-smile"></i>
-              <!-- </div> -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card-outer">
-      <div class="create-card">
-        <div class="card-image">
-          <img src="https://images.unsplash.com/photo-1476242906366-d8eb64c2f661?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1308&q=80" alt="">
-          <h6>STAFF PICK</h6>
-        </div>
-        <div class="card-bottom">
-          <div class="card-content">
-            <h5>Title</h5>
-            <div class="d-flex justify-content-between mt-5">
-              <div class="card-details">
-                <h6>Price $$</h6>
-                <h6>Rated: Good</h6>
-              </div>
-    <!--           <div class="flex-row-reverse"> -->
-                <i class="bi bi-emoji-smile"></i>
-              <!-- </div> -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+              <% end %>
   </div>
-</div>
 </div>
 
 
@@ -175,13 +107,13 @@
   </div>
 
   <div class="css-card-grid">
-      <% 16.times do %>
+      <% @category.each do |category| %>
     <div class="category-card mb-4">
       <div class="category-card-image">
-        <img src="https://images.unsplash.com/photo-1611095787946-fd5e3ed08285?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80" alt="">
+        <img src= <%= category.url %> alt="">
       </div>
       <div style="font-size: 26px;">
-        Business
+        <%= category.name %>
       </div>
     </div>
       <% end %>
